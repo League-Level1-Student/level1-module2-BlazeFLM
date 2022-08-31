@@ -26,7 +26,7 @@ class TeaBag {
 	String getFlavor() {
 		return flavor;
 	}
-
+	
 }
 
 class Kettle {

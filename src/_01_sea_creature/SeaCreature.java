@@ -28,6 +28,7 @@ public class SeaCreature {
 	}
 
 	public void laugh() {
+		System.out.println("laughing");
 		try {
 		    AudioClip sound = JApplet.newAudioClip(getClass().getResource(this.name + ".wav"));
 		    sound.play();
